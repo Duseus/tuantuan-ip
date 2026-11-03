@@ -35,7 +35,7 @@ tuantuan-ip/
 │   └── mp4/                        gs_* 绿幕动画 6 支、sc_* 场景动画 3 支、
 │                                   tuantuan_wave / _v2 挥手动画
 ├── source/                矢量工程源（Lottie / Bodymovin）
-├── docs/character-bible.md          角色设定、锚定描述、标准色板
+├── docs/character-bible.md          角色设定、形态规范、标准色板
 ├── manifest.json                    IP Kit v2.1 文件清单，含 sha256 校验
 └── preview.html                     本地素材库预览页
 ```
@@ -64,8 +64,9 @@ PY
 
 ## 角色一致性
 
-新增形象请以 `docs/character-bible.md` 的**生成锚定描述**为准，形态特征不可改动，只追加动作、道具、场景。
-出图工具与快捷脚本见仓库 `SKILL.md`（tuantuan-ip skill）。
+新增形象请以 `docs/character-bible.md` 的**形态规范**与**标准色板**为准，形态特征不可改动，只追加动作、道具、场景。
+
+形象的生产管线（生图工具、脚本与方法）不在本仓库公开范围内，另行私有管理。
 
 ## 版权
 
