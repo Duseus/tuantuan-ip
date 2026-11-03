@@ -1,0 +1,413 @@
+{
+  "name": "貉团团",
+  "romanization": "Tuantuan",
+  "version": "2.1",
+  "tagline": "团成一团，慢慢向前。",
+  "identity": [
+    "大圆瞳",
+    "可可小眼罩",
+    "桃粉围巾",
+    "蓬松尾巴"
+  ],
+  "moods": [
+    {
+      "id": "hello",
+      "text": "嗨，见到你真好",
+      "label": "打招呼"
+    },
+    {
+      "id": "joy",
+      "text": "开心到飞起",
+      "label": "开心"
+    },
+    {
+      "id": "love",
+      "text": "给你一颗心",
+      "label": "喜欢"
+    },
+    {
+      "id": "cheer",
+      "text": "你超棒的",
+      "label": "加油"
+    },
+    {
+      "id": "thanks",
+      "text": "谢谢你呀",
+      "label": "感谢"
+    },
+    {
+      "id": "sad",
+      "text": "有点委屈",
+      "label": "委屈"
+    },
+    {
+      "id": "wow",
+      "text": "哇！真的吗",
+      "label": "惊讶"
+    },
+    {
+      "id": "thinking",
+      "text": "让我想想",
+      "label": "思考"
+    },
+    {
+      "id": "coffee",
+      "text": "先喝一口",
+      "label": "咖啡"
+    },
+    {
+      "id": "work",
+      "text": "认真营业中",
+      "label": "工作"
+    },
+    {
+      "id": "rest",
+      "text": "今天先歇歇",
+      "label": "休息"
+    },
+    {
+      "id": "wander",
+      "text": "出去玩咯",
+      "label": "出游"
+    }
+  ],
+  "files": [
+    {
+      "file": "characters/hello.png",
+      "bytes": 181948,
+      "sha256": "25f221374b4dfca264f2d1e48a795830cbc94f017bdccde0dfb29f51014abb21",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/joy.png",
+      "bytes": 182185,
+      "sha256": "ef69eb510b43547afd8a96f5abbb58a6e67065b4341546b25159428c97bc8c29",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/love.png",
+      "bytes": 175704,
+      "sha256": "d8890037644227812fd1ced40242a5178f5d8489020c57dc1d3b6278a0802787",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/cheer.png",
+      "bytes": 194425,
+      "sha256": "45e28864a5ae757fe6ffccc8426b9c711f26ed3e338612b63d3fa09658e8af4b",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/thanks.png",
+      "bytes": 176958,
+      "sha256": "7ad2624bea6b51abbbc11d4c16dca1334f6e894a1190784a4aa1624c16c38f44",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/sad.png",
+      "bytes": 182031,
+      "sha256": "b7a6bb13a6b07dff7e443fe0d3105ef5804858ddad88c61918e5cece19de03b4",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/wow.png",
+      "bytes": 178162,
+      "sha256": "33ba6204363aa8b1ca0711ef9d5a750cf61d7d7531d91eb6e143e94756b6387b",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/thinking.png",
+      "bytes": 173294,
+      "sha256": "fe32294ed0eca50c53afe51440c88ec991389ce21a047c62fc6d1f2458f4b43b",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/coffee.png",
+      "bytes": 183410,
+      "sha256": "473f1711b476e68e6dd650ce8a08640b0062e5dcb2a4a6ea492283466ac0a601",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/work.png",
+      "bytes": 163225,
+      "sha256": "41d258514bd31cb2f2ec3887f5280251743fb404d804873505485afca7c04965",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/rest.png",
+      "bytes": 176031,
+      "sha256": "8119d1355b907d0e11f97bb498f83dce9434c1d3e3e7ea7c925393ab0efe8209",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "characters/wander.png",
+      "bytes": 177888,
+      "sha256": "f84b86dcc8accde818bf043fb4a592974fcdd0f285ba8ee2edde690a423eaa37",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "views/front.png",
+      "bytes": 180809,
+      "sha256": "5059da44da63a8db84bf3db70274bd3f612efc99b3a6815118ab84e6d189ccd0",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "views/three-quarter.png",
+      "bytes": 175595,
+      "sha256": "6e6269a3b6b23a7317e002f3b777e8e2deaccaf68c0d1d0bf682605d2f773fbf",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "views/side.png",
+      "bytes": 135574,
+      "sha256": "e6442562ae2f9b232ee53749f74e0ee50cd4ea9677598b9c7fd2359ec07197c1",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "views/back.png",
+      "bytes": 162348,
+      "sha256": "4f02dbdb818510bf3fbd701d17edb757768a20e07ed7030ff3df51936da801b1",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true
+    },
+    {
+      "file": "stickers/hello.png",
+      "bytes": 121693,
+      "sha256": "36ab01cd10ba6c4ca85a65b34076a5bb0dc5478bbd81914429e9b946ec76a63b",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/joy.png",
+      "bytes": 117346,
+      "sha256": "387a6e368291e9d5d029f5889710e12fee10b417c3cba96fcbacf3c9c4c3ebf8",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/love.png",
+      "bytes": 115487,
+      "sha256": "067c91f8c65a2a97d99b558299d6b7c206c1e2fc8d94a9b8c1b049a530723546",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/cheer.png",
+      "bytes": 123601,
+      "sha256": "4f384f54cf5b84fec5c350158ce0376d114b4f3b66eb5d47982a1fc0c2ad38f6",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/thanks.png",
+      "bytes": 114091,
+      "sha256": "a7002c1414148839b76443e4600b11638d839a1d42722a79c902b4755986c71a",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/sad.png",
+      "bytes": 117278,
+      "sha256": "107eaac6927f75c968801e0954d2b3116d827c79e9d6be5fa9af9651e636643e",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/wow.png",
+      "bytes": 115786,
+      "sha256": "222e744bcbccd1341664a9fc75be6e6b8d6292a1fdd562e153d9cea63fa0addf",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/thinking.png",
+      "bytes": 113338,
+      "sha256": "fdbe24de2deec357256c3bc474b46decc220b39f05791f0089ef3de812fbffb3",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/coffee.png",
+      "bytes": 115504,
+      "sha256": "beebd0bfe4dca690c6ed1e50f3e57e2d0cf92c50c921802b34cc39fa07bbc1e5",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/work.png",
+      "bytes": 109191,
+      "sha256": "f5b77a6b25c8fc58dd323f4aa369aee9ee1350fcd9774d824da6d4f0c585fe77",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/rest.png",
+      "bytes": 115875,
+      "sha256": "90d5cea564db5df2c365e568cc46bb051f550cf24194d3c5f59852ffc6de2ea3",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "stickers/wander.png",
+      "bytes": 113644,
+      "sha256": "efa61ff31f19a2cf2daa19862ae89390734f4e91a8742bab89b93818d35608e6",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "avatars/cream.png",
+      "bytes": 576205,
+      "sha256": "0a9d247a48da8a887d23e6e7d99abcf48ad4875a36b983361991b13f29e05ef0",
+      "width": 800,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "avatars/pink.png",
+      "bytes": 562368,
+      "sha256": "e82ee26fd3f7d5b0846345c94980e1292165011ddb82bda457d4c3647ace7274",
+      "width": 800,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "avatars/sage.png",
+      "bytes": 597742,
+      "sha256": "33333ed5158495cd50aa4e483b9186800b31b6b1a44cb5bccc9a6517c43aa37e",
+      "width": 800,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "avatars/lilac.png",
+      "bytes": 564076,
+      "sha256": "22a8df5c1ad00bb8193f7931037401e8b21e8b2af1fa8e4b57c7f5cf3809f42e",
+      "width": 800,
+      "height": 800,
+      "alpha": false
+    },
+    {
+      "file": "wallpapers/phone-day.png",
+      "bytes": 545800,
+      "sha256": "08cf51429bf0e435889b44533638088b8f008aee1b440ff05c496c85905662d4",
+      "width": 1080,
+      "height": 1920,
+      "alpha": false
+    },
+    {
+      "file": "wallpapers/phone-night.png",
+      "bytes": 554703,
+      "sha256": "31bb4d8443e1ce5c5e94990a1cae0b0236ead237402005ef02bcf7a4256e6ab9",
+      "width": 1080,
+      "height": 1920,
+      "alpha": false
+    },
+    {
+      "file": "wallpapers/desktop.png",
+      "bytes": 847620,
+      "sha256": "d129f11e5e52b5d69108185f3c77c60732e082453c05f1935e2b54f015021f1c",
+      "width": 2560,
+      "height": 1440,
+      "alpha": false
+    },
+    {
+      "file": "banners/blog-cover.png",
+      "bytes": 367038,
+      "sha256": "3e15521c0e4117ebb96414b15d9ecaacf82ae81cdc7df00ff61ec688ae35be29",
+      "width": 1920,
+      "height": 640,
+      "alpha": false
+    },
+    {
+      "file": "banners/social-card.png",
+      "bytes": 229045,
+      "sha256": "84971a1ed95cf221c829446729b502cd6bcb0cccdc3272ed9a0f6c5fdacf74d7",
+      "width": 1200,
+      "height": 630,
+      "alpha": false
+    },
+    {
+      "file": "boards/character-sheet.png",
+      "bytes": 571702,
+      "sha256": "a3039e446f617c54a2683ba4622336a80d26b8d41d9812ca2ae7130ee95a7676",
+      "width": 2400,
+      "height": 1600,
+      "alpha": false
+    },
+    {
+      "file": "boards/expressions.png",
+      "bytes": 894869,
+      "sha256": "206602660314ea55617e94851985c227cfb6c9a731ceb68258b7a1dd5c54df8b",
+      "width": 2400,
+      "height": 1800,
+      "alpha": false
+    },
+    {
+      "file": "brand/emblem.svg",
+      "bytes": 1327,
+      "sha256": "f08eb09c88d06970e100fb6b6b001cad8461902ef631751098cf378cc7d77e5c"
+    },
+    {
+      "file": "brand/wordmark.svg",
+      "bytes": 1579,
+      "sha256": "835029e9d720699f6fa09710ad8e316e597f206fb053b5609ba99375648da02b"
+    },
+    {
+      "file": "brand/pattern.svg",
+      "bytes": 801,
+      "sha256": "8e6ab2f6891cae6f2910653897f8db6bb57b1c0542c2e0a37a86ab4906d9ae64"
+    },
+    {
+      "file": "brand/original-character.svg",
+      "bytes": 2907,
+      "sha256": "5e4b2a5087c8539e18d511afeef53c0063f036589ea11ceb25c7339ede76c546"
+    },
+    {
+      "file": "index.html",
+      "bytes": 18870,
+      "sha256": "1bfe051af889e89416c20bc29f75b036b13e7ea72f3df905d0050c3e4dcea670"
+    }
+  ]
+}
