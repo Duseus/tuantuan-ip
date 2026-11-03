@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 190" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">貉团团</title>
-  <desc id="desc">奶油色的貉团团，圆圆的眼睛、可可色小眼罩和桃粉围巾，是一只喜欢把自己团成球的小伙伴。</desc>
+  <title id="title">团团</title>
+  <desc id="desc">奶油色的团团，圆圆的眼睛、可可色小眼罩和桃粉围巾，是一只喜欢把自己团成球的小伙伴。</desc>
   <defs>
     <radialGradient id="fur" cx=".35" cy=".25" r=".8"><stop stop-color="#ffeeda"/><stop offset="1" stop-color="#e3bf9c"/></radialGradient>
     <linearGradient id="scarf" x1="70" y1="120" x2="140" y2="156" gradientUnits="userSpaceOnUse"><stop stop-color="#ffb9c2"/><stop offset="1" stop-color="#e07f96"/></linearGradient>

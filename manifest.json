@@ -1,5 +1,5 @@
 {
-  "name": "貉团团",
+  "name": "团团",
   "romanization": "Tuantuan",
   "version": "2.1",
   "tagline": "团成一团，慢慢向前。",
@@ -391,8 +391,8 @@
     },
     {
       "file": "brand/wordmark.svg",
-      "bytes": 1579,
-      "sha256": "835029e9d720699f6fa09710ad8e316e597f206fb053b5609ba99375648da02b"
+      "bytes": 1576,
+      "sha256": "8e5acdba1bfdcdc7d0d81c7e2f25715eefa4e4fe6231931838176e6053634d0e"
     },
     {
       "file": "brand/pattern.svg",
@@ -401,8 +401,8 @@
     },
     {
       "file": "brand/original-character.svg",
-      "bytes": 2907,
-      "sha256": "5e4b2a5087c8539e18d511afeef53c0063f036589ea11ceb25c7339ede76c546"
+      "bytes": 2901,
+      "sha256": "2c73f151f179d042d0dba10ae297f73ba8741f33a3ba68f43be6035825762fe7"
     },
     {
       "file": "index.html",

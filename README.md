@@ -1,8 +1,8 @@
-# 貉团团 · Tuantuan IP Kit
+# 团团 · Tuantuan IP Kit
 
 > 团成一团，慢慢向前。
 
-站点吉祥物「**貉团团**」的完整形象资产库 —— Q 版萌系貉，二头身，城市夜行干饭团子。
+站点吉祥物「**团团**」的完整形象资产库 —— Q 版萌系貉，二头身，城市夜行干饭团子。
 所有图片、动画与矢量工程源统一收拢在此，Git 版本管理，可追溯、可校验、可复用。
 
 ## 目录结构
@@ -17,7 +17,9 @@ tuantuan-ip/
 │   └── expressions-green/       19 张绿幕表情（angry / base / cry / eat / fight
 │                                happy / huh / hungry / love / night / ok / peek
 │                                please / proud / relax / run / shock / sleepy / wave）
-├── stickers/              十二情绪表情贴纸，512×512 透明底 PNG
+├── stickers/               表情贴纸
+│   ├── *.png               十二情绪静态贴纸，512×512 透明底 PNG
+│   └── animated/           动态表情包 12 枚，240×240 无限循环 GIF
 ├── views/                 front / three-quarter / side / back 四视角
 ├── avatars/
 │   ├── cream / pink / sage / lilac     四种配色头像，800×800
@@ -62,6 +64,26 @@ print('校验不一致:', bad or '无')
 PY
 ```
 
+## 动态表情包
+
+`stickers/animated/` 下 12 枚动态表情，240×240、12 帧、80ms/帧、无限循环，
+单枚 150~180KB，可直接用作微信 / QQ / 飞书表情。
+
+| 文件 | 情绪 |
+| :--- | :--- |
+| `joy.gif` | 开心（跳起欢呼） |
+| `sad.gif` | 难过（含泪低头） |
+| `wow.gif` | 惊讶（瞪眼后仰） |
+| `love.gif` | 爱心（比心飞心） |
+| `cheer.gif` | 加油（握拳举臂） |
+| `thanks.gif` | 感谢（合十鞠躬） |
+| `sleepy.gif` | 困了（打哈欠 Zzz） |
+| `confused.gif` | 疑惑（歪头问号） |
+| `thumbsup.gif` | 点赞（竖大拇指） |
+| `hug.gif` | 抱抱（张臂前扑） |
+| `eating.gif` | 吃饭（捧碗扒饭） |
+| `dancing.gif` | 跳舞（扭动音符） |
+
 ## 角色一致性
 
 新增形象请以 `docs/character-bible.md` 的**形态规范**与**标准色板**为准，形态特征不可改动，只追加动作、道具、场景。
@@ -70,5 +92,5 @@ PY
 
 ## 版权
 
-貉团团形象、命名及相关视觉资产版权归 **Duseus / 山川行貉** 所有，保留所有权利。
+团团形象、命名及相关视觉资产版权归 **Duseus / 山川行貉** 所有，保留所有权利。
 转载请注明出处。如需授权使用，请先联系。

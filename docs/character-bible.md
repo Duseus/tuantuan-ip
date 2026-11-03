@@ -1,4 +1,4 @@
-# 貉团团 · 角色设定（Character Bible）
+# 团团 · 角色设定（Character Bible）
 
 > 团成一团，慢慢向前。
 > Romanization: **Tuantuan** · IP Kit version 2.1
